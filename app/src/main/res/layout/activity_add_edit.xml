@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoa.myapplication.AddEdit">
+
+    <EditText
+        android:hint="Họ tên"
+        android:id="@+id/text_hoten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+         />
+
+    <EditText
+        android:hint="MSSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_mssv"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        />
+    <EditText
+        android:hint="SDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_sdt"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        />
+    <EditText
+        android:hint="Năm Sinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_namsinh"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        />
+    <EditText
+        android:hint="Tên lớp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_tenlop"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:onClick="buttonSaveClicked"/>
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:onClick="buttonCancelClicked"/>
+
+</GridLayout>
